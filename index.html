@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="main d-flex flex-column flex-xl-row justify-content-center mt-5">
+        <div class="heading col-xl-3 mt-xl-5 mb-3">
+            <div class="title text-center text-xl-start mt-xl-5">
+                <h1 class="text-primary fw-bold">facebook</h1>
+                <p class="subtitle mx-3 mx-xl-0">Connect with friends and the world account you on Facebook.</p>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-7 col-md-9 mt-xl-5 text-center mx-xl-5 mx-md-auto">
+            <div class="bg-white p-3 mx-5 mx-xl-0 mb-3 rounded shadow text-center">
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email or phone number">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn  fs-small btn-primary mb-3 w-100">Log in</button>
+                    <div class="text-center fs-small text-primary">
+                        <p> Forgotten password?</p>
+                    </div>
+                    <hr class="mb-3">
+                    <!-- Button trigger modal -->
+                    <div class="text-center">
+                        <button type="button" class="btn  fs-small btn-success w-75 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Create new account</button>
+                    </div>
+                </form>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <div>
+                                        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h1>
+                                    </div>
+                                <button type="button" id="close-btn-modal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="text-start">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control mb-2" placeholder="First Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control mb-2" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control mb-2" placeholder="Mobile Number or email address">
+                                    <input type="text" class="form-control mb-3" placeholder="New password">
+                                    <div class="row">
+                                        <p class="fs-small text-muted my-0">Date of Birth</p>
+                                        <div class="col">
+                                            <select class="form-select">
+                                                <option value="1">Jan</option>
+                                                <option value="2">Feb</option>
+                                                <option value="3">Mar</option>
+                                                <option value="4">Apr</option>
+                                                <option value="5">May</option>
+                                                <option value="6">Jun</option>
+                                                <option value="7">Jul</option>
+                                                <option value="8">Aug</option>
+                                                <option value="9">Sep</option>
+                                                <option value="10">Oct</option>
+                                                <option value="11">Nov</option>
+                                                <option value="12">Dec</option>
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <select class="form-select">
+                                                <option value="1">2022</option>
+                                                <option value="2">2021</option>
+                                                <option value="3">2020</option>
+                                                <option value="4">2019</option>
+                                                <option value="5">2018</option>
+                                                <option value="6">2017</option>
+                                                <option value="7">2016</option>
+                                                <option value="8">2015</option>
+                                                <option value="9">2014</option>
+                                                <option value="10">2013</option>
+                                                <option value="11">2012</option>
+                                                <option value="12">2011</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                         <p class="fs-small text-muted my-0">Gender</p>
+                                         <div class="col">
+                                            <div class="border rounded p-2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Male
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                            </div>
+                                         </div>
+                                        <div class="col">
+                                            <div class="border rounded p-2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Female
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="border rounded p-2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Custom
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                            </div>
+                                        </div>
+
+                                            
+                                    </div>
+                                    <div class="row mt-3 d-none" id="customgender">
+                                        <div class="col">
+                                            <select class="form-select">
+                                                <option selected>Select your pronoun</option>
+                                                <option value="1">She: "Wish her a happy birthday!"</option>
+                                                <option value="2">He : "Wish him a a happy birthday!"</option>
+                                                <option value="3">They: "Wish them a happt birthday!"</option>
+                                            </select>
+                                        </div>
+                                        <p class="fs-ex-small text-muted my-0">Your pronoun is visible to everyone.</p>
+                                    </div>
+                                    <div class="row d-none" id="genderopt">
+                                        <div class="col mt-3">
+                                            <input type="text" class="form-control" placeholder="Gender (optional)">
+                                        </div>
+                                    </div>
+                                    <p class="my-2 fs-ex-small text-muted">People who use our services may have uploaded your contact information to Facebook. Learn more.</p>
+                                    <p class="my-0 fs-ex-small text-muted">By cliking Sign Upm you agree to our Terms, Privacy Policy and Cookies Policy.</p>
+                                    <p class="my-0 fs-ex-small text-muted">You may receive SMS Notifications from use and can opt out any times.</p>
+
+                                </form>
+                            </div>
+                            <div class="modal-footer w-100">
+                                <button type="button" class="btn btn-success w-50 mx-auto fs-small" data-bs-dismiss="modal">Sign Up</button>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="fs-small"><span class="fw-bold">Create a Page</span> for a celebrity, brand, or business.</span></p>
+            </div>
+        </div>
+    </section>
+       
+    <footer class="text-muted bg-white fs-ex-small p-3 p-lg-2">
+        <div class="container">
+            <div class="d-flex flex-wrap border-bottom my-2">
+                <p>English(US) Francise(Canada) Korean Mandarin Traditional Mandarin</p>
+            </div>
+            <div class="d-flex flex-wrap">
+                <p>Sign Up Login Messenger Facebook Lite Watch</p>
+            </div>
+            <div class="d-flex flex-wrap">
+                <p>Meta @ 2022</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
